@@ -18,6 +18,7 @@ to implement later.
 Solutions are stored in this folder structure
 
 -- Problem (name and number from leet code)
+
 ----Solutions (name of the solution
 like "Brute Force" or "Two pointers")
 
