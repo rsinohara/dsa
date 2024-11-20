@@ -1,23 +1,54 @@
-# node-typescript-jest-boilerplate
+# Leet code solutions repository
 
-Boilerplate for a node server or library written in typescript, using jest as
-the test runner.
+My main goal here is to have a place I can store solutions for my leet code
+exercises in order to:
 
-## Usage
+- Have nice annotations
+- Share them with other students
+- Create my own test cases
 
-Clone the boilerplate as a new project:
+While leet code allows you to store multiple solutions and even add noted, it's
+not possible to share them and I cannot create placeholders for solutions I want
+to implement later.
 
-```bash
-git clone https://github.com/bschlenk/node-typescript-jest-boilerplate.git <project>
-```
+# How to use
 
-Update [package.json](package.json) as you see fit.
+## Just checking solutions
 
-## Modifications
+Solutions are stored in this folder structure
 
-If this is for a library only, then chances are you don't need nodemon. You can
-make the following changes to remove it:
+-- Problem (name and number from leet code) ----Solutions (name of the solution
+like "Brute Force" or "Two pointers")
 
-- Delete `nodemon.json`
-- Remove `watch` from `package.json` scripts
-- Remove `nodemon` from `package.json` devDependencies
+## Testing solutions
+
+Each problem also contains a series of test cases. They are stored in JSON to be
+usable by other languages if needed.
+
+Tests are provided for TS/JS. Just run the test command, specifying the index
+test file for the given problem. All the solutions will be tested with the test
+cases.
+
+## Adding solutions
+
+Just add a solution in a new file. Be sure to add the references in the index
+file, so that it will be tested. You can add details about the solution in
+readme.md for the problem.
+
+=> Solutions should be named according to the (main) technique used for their
+implementation, like:
+
+- Brute force
+- Stack
+
+If there are more solutions with the same main technique, add more descriptions
+like:
+
+- Brute force
+- Brute force with memo
+
+## Adding a new problem
+
+Copy an existing problem and add specific test cases. You can add more specific
+types, and you can adapt the tests to take additional requirements or
+simplifications into account (e.g. your problem accepts results in any order).
