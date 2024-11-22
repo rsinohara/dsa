@@ -1,16 +1,26 @@
 # [Two Sums](https://leetcode.com/problems/two-sum/description/)
 
-Exercise:
+You should try to figure out how to achieve those solutions before checking the
+descriptions below, or even the actual implementations in the solutions folder.
+
+First light spoilers are the requested complexities in class. Should not spoil
+too much to look at them, but still better to think about them by yourself first
+
+<details>
+  <summary>Light spoilers: requested complexities</summary>
 
 - Solve in n²
 - Solve in nlogn
 - Solve in n
 
-You should try to figure out how to achieve those solutions before checking the
-descriptions below, or even the actual implementations in the solutions folder.
+</details>
+
+Now, what techniques can be used to achieve the requested complexities. You
+should really not look at those unless you really thought about it and are
+stuck... or to verify your thinking
 
 <details>
-  <summary>Solution descriptions (spoilers)</summary>
+  <summary>Spoilers: high level solution descriptions</summary>
 
 | Time complexity | Solution                                                                                                  |
 | --------------- | --------------------------------------------------------------------------------------------------------- |
